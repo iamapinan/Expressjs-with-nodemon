@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    api:
+        image: iamapinan/air_in_one_api:latest
+        restart: always
+        ports:
+            - 3009:3000
+        
