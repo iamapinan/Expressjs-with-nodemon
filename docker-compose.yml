@@ -2,8 +2,9 @@ version: '3'
 
 services:
     api:
-        image: iamapinan/air_in_one_api:latest
+        image: iamapinan/expressjs-with-nodemon:latest
         restart: always
-        ports:
-            - 3009:3000
-        
+        environment: 
+            STARTMODE=production
+        ports: 
+            - 3000:3000
