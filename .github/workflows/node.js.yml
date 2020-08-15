@@ -17,4 +17,4 @@ jobs:
         remote_path: ${{ secrets.WORKDIR }}
         remote_host: ${{ secrets.DEPLOY_HOST_DEV }}
         remote_user: iotech
-        remote_key: ${{ secrets.SSH_KEY }}
+        remote_key: ${{ secrets.SSH_PRIV_KEY }}
