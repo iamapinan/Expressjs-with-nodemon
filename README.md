@@ -1,4 +1,6 @@
-# Express with Nodemon
+# Express with Nodemon. 
+![Docker Image CI](https://github.com/iamapinan/Expressjs-with-nodemon/workflows/Docker%20Image%20CI/badge.svg?branch=master)
+
 
 ### About this repo
 - Build with node-alpine
