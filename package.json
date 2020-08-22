@@ -1,6 +1,6 @@
 {
-  "name": "air1-api",
-  "version": "0.0.0",
+  "name": "expressjs-with-nodemon",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "production": "node ./bin/www",
